@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* topo */
+.hero-top {
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#navbar {
+    
+    width: 390px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.logo{
+    width: 122px;
+    height: 35px;
+    background: url(../logo/CC\ -\ Logo\ 1.png), rgba(255, 254, 254, 0.129) 50% / cover no-repeat;
+    margin-top:14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+}
+.pesquisar{
+display: flex;
+border-radius: 72px;
+border: 1px solid rgba(148, 163, 184, 0.50);
+background: #FFF;
+width: 116px;
+height: 28px;
+margin: 18px 20px 18px ;
+    
+}
+.lupa{
+display: flex;
+margin-left: 15px;
+align-items: center;
+flex-shrink: 0;
+}
+.lupa svg{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+input{
+    border: none;
+    flex: 1 0 auto;
+    width: 82px;
+    margin-left: 15px;
+    outline: none;
+}
+::placeholder{
+color: #94A3B8;
+text-align: center;
+/* leading-trim: both;
+text-edge: cap; */
+font-family: 'Poppins';
+font-size: 9px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.18px;
+}
+#frame1{
+display: inline-flex;
+width: 248px;
+margin: auto;
+margin-top: -17px;
+height: 33px;
+padding: 0px 20px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 0px 13px 0px rgba(31, 41, 55, 0.25);
+    }
+
+.frame1-descricao{
+color: #334155;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.frame1-descricao span{
+color: #334155;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.title{
+margin: 32px 101px 0px 26px;
+color: #334155;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.linha-orizontal{
+
+margin: 20px 20px 0 20px;
+width: 350px;
+height: 1px;
+background: rgba(148, 163, 184, 0.20);
+}
+/* corpo */
+.frame-2{
+margin: 23px 40px 0;
+border-radius: 12px;
+background: #22C55E;
+width: 350px;
+height: 238px;
+flex-shrink: 0;
+}
+.medal-1{
+margin: 14px 207px 0 33px;
+width: 57px;
+height: 57px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+}
+.medal-1-premio{
+border-radius: 46px;
+background: #16A34A;
+display: flex; 
+width: 71px;
+margin-left: 7px;
+/* height: 24px; */
+padding: 8px 12px 8px 13px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: 'Poppins';
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.medal-2{
+width: 218px;
+height: 218px;
+flex-shrink: 0;
+margin: -4.5rem -3.25rem 0.31rem 12.75rem;
+}
+.paragrafo{
+   margin-top:-8.5rem;
+   margin-left: 1.25rem;
+   width: 16.6rem;
+   height: 3.6rem;
+   color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.paragrafo span{
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.bnt{
+margin-top:1.56rem;
+margin-right: 1.25rem;
+margin-bottom: 1.25rem;
+margin-left: 1.25rem;
+display: inline-flex;
+height: 2.875rem;
+padding: 0rem 2.5625rem 0rem 2.5rem;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 0.5rem;
+background: #166534;
+text-decoration: none;
+}
+/* texto do botão */
+.bnt{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bnt span{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 5px;
+}
+/* rodapé */
+footer{
+    margin: 51.13rem 6.31rem 1.25rem 6.31rem;
+    width: 11.5rem;
+    height: 0.3rem;
+
+}
+/* texto */
+footer p{
+color: #94A3B8;
+font-family: Poppins;
+font-size: 0.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
